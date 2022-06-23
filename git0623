@@ -3,7 +3,12 @@ $ git branch dog
 ＃開新分支
 要讓dog往前，必須把head給他
 切換分支
-$ git switch dog ＃移轉head給dog
+$ git switch dog ＃移轉head給dog(head就是你現在的所在地)
 專案會變成head 指到的位置
 假設在/projects/vote/進行初始化 init ,那就不要對/projects/這個資料夾進行初始化，會造成槽狀結構
 $ rm -rf .git ＃(刪掉初始化資料)（小心）（確定好所在位置）
+#合併分支
+＄ git merge cat
+隱藏主詞current branch，會融在現在的分支
+＃Fast-forward 快轉
+砍掉分支 cat $ git branch -d cat
