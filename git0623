@@ -5,3 +5,5 @@ $ git branch dog
 切換分支
 $ git switch dog ＃移轉head給dog
 專案會變成head 指到的位置
+假設在/projects/vote/進行初始化 init ,那就不要對/projects/這個資料夾進行初始化，會造成槽狀結構
+$ rm -rf .git ＃(刪掉初始化資料)（小心）（確定好所在位置）
