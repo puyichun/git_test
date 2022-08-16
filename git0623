@@ -8,7 +8,7 @@ git checkout
 換分支名字
 git checkout dog
 git branch -m cat
-
+ddd
 切換分支
 $ git switch dog ＃移轉head給dog(head就是你現在的所在地)
 專案會變成head 指到的位置
